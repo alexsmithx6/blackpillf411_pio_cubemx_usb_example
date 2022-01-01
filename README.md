@@ -13,7 +13,7 @@
 Currently the setup is a bit finicky but worth it if you want to work in vscode rather than the other bloated IDE's, AND use STM32CubeMX for some code generation.
 
 1. Setup .ioc file (in this project it is blackpill_cubemx.ioc) with STM32CubeMX (no need to generate the code), following steps 1-3 of [this guide](https://github.com/ussserrr/stm32pio/tree/master/examples/cli)
-2. Rub the code in terminal
+2. Run the code in terminal
 ```
 stm32pio init
 stm32pio new -b blackpill_f411ce --start-editor=code --with-build
